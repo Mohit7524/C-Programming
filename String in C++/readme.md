@@ -3,15 +3,14 @@
 * Syntax:
           *  string greeting = "Hello";
 
-C++ String Example:
-       #include<iostream>
-       using namespace std;
-       int main()
-       {
-          string s1="Hello";
-          char ch[]={'C','+','+'};
-          string s2=string(ch);
-          cout<<s1<<endl;
-          cout<<s2<<endl;
-            
-       }
+## String Concatenation:
+* The + operator can be used between strings to add them togethor to make a new string.That is called concatenation.
+
+* Synatx:
+/*
+        string firstName="Mohit";
+        string lastName="Kumar";
+        string completeName=firstName+lastName;
+        cout<<completeName;
+*/
+
